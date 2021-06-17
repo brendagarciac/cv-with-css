@@ -1,0 +1,224 @@
+a {
+  text-decoration: none;
+  color: black;
+  margin: 10px 20px;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  padding-bottom: 10px;
+  font-size: 35px;
+  color: #c9e265;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;
+  margin: 0;
+  color: #3f915e;
+}
+
+hr {
+  border: dotted #ffdf2b 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+ul {
+  margin-top: 5px;
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #c9e265;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #ffdf2b;
+  padding: 40px 0 10px;
+}
+
+.welcome {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.introduction {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  background-color: #ffdf2b;
+  line-height: 100px;
+  font-size: 25px;
+  z-index: 1000;
+}
+
+.skill-row {
+  width: 45%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.programming_skill {
+  width: 190px;
+  float: left;
+  margin-right: 30px;
+}
+
+.languages_skill {
+  width: 190px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 50px auto 70px auto;
+}
+
+.btn {
+  -webkit-border-radius: 61px;
+  -moz-border-radius: 61px;
+  border-radius: 61px;
+  color: #000000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #C9E265;
+  border: solid #C9E265 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+}
+
+.btn:hover {
+  background: #DAFB66;
+  border: solid #DAFB66 4px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #3f915e;
+}
+
+.copyright {
+  font-size: 1rem;
+}
+
+.avatar {
+  height: 300px;
+  width: 300px;
+}
+
+.avatar:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.star {
+  width: 100px;
+}
+
+/* Dropdown Button */
+.dropdown-icon {
+  font-size: 25px;
+}
+
+.dropbtn {
+  background-color: #ffdf2b;
+  color: black;
+  border: none;
+  transition: transform .7s ease-in-out;
+}
+
+.dropbtn:hover {
+  transform: rotate(180deg);
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background-color: #ffdf2b;
+  opacity: 0.5;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffdf2b;
+}
